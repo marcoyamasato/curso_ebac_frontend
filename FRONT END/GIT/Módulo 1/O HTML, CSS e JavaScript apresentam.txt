@@ -1,0 +1,7 @@
+O HTML, CSS e JavaScript apresentam funções diferentes na criação de uma página.
+
+HTML - Utilizamos para criar a estrutura da nossa página. O HTML é responsável por indicar onde irão os elementos da página e a forma como serão dispostas.
+
+CSS - Complementando o HTML, o CSS é responsável por estilizar a página. Com ele podemos deixa-la mais agradável, mudando cores, fontes e bordas por exemplo.
+
+JavaScript - Responsável pela funcionalidade da página. O JavaScript quem trará usabilidade e dinamismo para nossas páginas web, deixando elas usuais. 

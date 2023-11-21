@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário</h1>
+    </header>
+
+    <main>
+
+        <form>
+            
+            <input type="text" placeholder="Digite seu nome" />
+            
+            <br/>
+
+            <label for="email"> Seu e-mail</label> <!O for="email" associa a label ao id "email"/>
+            <input id="email" required="True" type="email"/>
+
+            <br />
+            
+            <label for="telefone"> Telefone:</label>
+            <input type="tel" id="telefone" placeholder="Informe seu telefone"> <!Se acessarmos do celular, abrirá apenas o teclado numérico/>
+
+            <br />
+
+            <label for = "numero"> Numero </label>
+            <input type="number" id="numero" max="6" min="0" step="2">
+
+            <br />
+
+            <input type="file"> </input>
+
+            <br />
+
+            <input type="color">
+
+            <br />
+
+            <input type="checkbox" id="checkbox"/> <label for = "checkbox"> Aceito os termos do contrato</label>
+            
+            <br />
+
+            <p>
+                Qual sua cor preferida?
+            </p>
+
+            <br />
+            <!Name se refere a pergunta a ser respondida. Como é a mesma pra todos, só da pra escolher uma opção/>
+            
+            <input type="radio" name="cor_favorita" id="Vermelho" /> <label for="Vermelho"> Vermelho </label>
+            <input type="radio" name="cor_favorita" id="Azul"/> <label for="Azul">Azul</label>
+            <input type="radio" name="cor_favorita" id="Verde"/> <label for="Verde">Verde</label>
+
+            <br/>
+
+            <label>Qual seu filme preferido?</label> <br />
+
+            <select>
+                <option>Senhor dos aneis</option>
+                <option>Harry Potter</option>
+                <option>Clube da luta</option>
+            </select>
+
+            <br />
+
+            <label> Qual dos atores abaixo você gosta? (Selecione quantos desejar) </label> <br />
+
+            <select multiple>
+                <option>Will Smith</option>
+                <option>Bradd Pitt</option>
+                <option>Leonardo Di Caprio</option>
+            </select>
+
+            <br />
+
+            <textarea></textarea>
+
+            <button type="submit">
+                Enviar
+            </button>
+
+            <button type="reset">
+                Limpar
+            </button>
+
+
+        </form>
+
+    </main>
+
+    <nav>
+        <a href="./index.html"> Home </a>
+    </nav>
+    
+</body>
+</html>
