@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box; /*Essa opção faz com que os elementos se ajustem exatamente ao que eu pedir, independente do que acontece*/
+    padding: 0;
+    margin: 0;
+}
+
+
+header li{
+
+    display: inline; /*pegando elementos da lista no header e deixando tudo em 1 linha*/
+    background-color: #ddd;
+    color: black;
+}
+
+header li a{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+
+body > header{  /* Isso faz com que ele pegue apenas o primeiro filho do Body, no caso nosso titulo. Caso contrário, todos os headers ficam coloridos*/
+
+    background-color: #ddd;
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+    padding-left: 15px;
+} 
+
+
+
+header .container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+}
+
+.container{
+    width: 1100px; /*largura padrão de notebooks*/
+    margin: 0 auto 0 auto; /*margina acima e abaixo como 0 e direita e esquerda automático (vai até onde der no caso de auto)*/
+}
+
+
+section{
+    padding: 20px 0px;
+}
+
+.container h2{
+    margin-bottom: 50px;
+}
+
+.articles h3{
+    margin-bottom: 20px;
+}
+
+.articles{
+    display: flex; /*fará o display um ao lado do outro*/
+    flex-wrap: wrap; /*Como tudo está em uma linha (display :flex), quando chegar ao final, ele quebra pra próxima linha*/
+    justify-content: space-between; /*Ele pega o espaço sobrando (no caso 10%, já que 90% está preenchido) e coloca nas separações*/
+}
+
+.articles img{
+   /* height: 200px;/* Quando informamos a altura, já é adaptado a largura*/
+    width: 100%;
+}
+
+.articles article{
+    width: 30%; /*Quero que cada elemento preenche 30% de largura da minha tela*/
+    margin-top: 20px;
+}
+
+#sports .articles article a{
+    color: black;
+    text-decoration: none; /*Por padrão o "a" vem sublinhado, estamos tirando isso*/
+    background-color: rgba(0,255,0,0.7);
+    font-weight: 700; /* deixa o texto mais gordo */
+    padding: 8px;
+    display: inline-block; /*O fundo do link estava ficando sobre o texto, essa função corrige isso*/
+}
+
+#economy .articles article a{
+    color: black;
+    text-decoration: none; /*Por padrão o "a" vem sublinhado, estamos tirando isso*/
+    background-color: rgba(255, 238, 0, 0.7);
+    font-weight: 700; /* deixa o texto mais gordo */
+    padding: 8px;
+    display: inline-block;
+}
+
+.articles article p,
+.articles article h3,
+.articles article a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article a:hover{
+    text-decoration:underline; /*Colocando efeito pra quando passar o mouse*/
+}
+
+.articles article h3{
+    font-size: 30px;
+}
+
+.container h2{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+
+#sports{
+    background-color: rgba(0,255,0,0.1); /*rgba (red, green, blue, alfa). O alfa representa opacidade */
+}
+
+
+#economy {
+    background-color: rgb(212, 212, 60);
+}
+
+/*----------------------------------------------------------------------------------------------------*/
+
+
+#cars .container h2{
+    color:black
+}
+
+#cars {
+    background-color: rgba(179, 95, 39, 0.35);
+}
+
+#cars article h3{
+    color:black
+}
+
+#cars .articles img{
+    height:200px
+}
+
+
+#entertaining .container h2{
+    color: rgb(115, 182, 109)
+}
+
+#entertaining {
+    background-color: rgba(255, 238, 0, 0.2);
+}
+
+#entertaining article h3{
+    color:rgb(1, 73, 4, 1)
+}
+
+
+/*----------------------------------------------------------------------------------------------------*/
+
+h3 {
+    color: green;
+}
+
+h2{
+    color: blueviolet;
+}
+
+/* Para selecionar elemento por ID tem que ser !*/
+
+#economy h2{ 
+    color: gold;
+}
+
+.creation-date{
+    color: brown;
+}
+
+/*Esta opção hover faz com que mude de cor só quando passamos o cursor */
+
+h1:hover{
+    color: darkorange;
+}
+
+/*Essa função faz com que tudo que não foi setado antes fique da cor que escolhemos*/
+
+/*
+*{
+    color: pink;
+}
+*/
