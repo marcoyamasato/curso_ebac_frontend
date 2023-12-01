@@ -1,0 +1,7 @@
+item.addEventListener('keyup', function(e)){
+	
+}
+
+
+Essa função é acionada toda vez que o usuário digitar algo no teclado.
+Ou seja, é muito boa pra vermos tudo em tempo real.

@@ -1,0 +1,19 @@
+NO HTML:
+
+- Iremos apenas criar o elemento e atribuir uma classe
+
+
+
+NO CSS:
+
+- Iremos atribuir o display como none
+
+
+NO JS:
+
+- Iremos colocar uma condição. No caso de querer que apareça, podemos utilizar: 
+
+"elemento.style.display = 'block' "
+
+É contraintuitivo, porém o block faz com que o que foi settado no css (none) seja bloqueado. Ou seja, vai ser exibido.
+OBS: Cuidado para não tentar dar display no value do elemento, mas sim no elemento em si.

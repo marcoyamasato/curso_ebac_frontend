@@ -1,0 +1,20 @@
+document.Getelemenby ("algum elemento")
+
+
+UTILIZANDO O "QUERY SELECTOR":
+
+document.querySelector("input") -- Dessa forma, ele vai pegar apenas o primeiro elemento.
+
+
+document.querySelector("input[type=number]") -- Vai pegar o primeiro input tipo número.
+
+
+document.querySelectorAll("input") - Vai pegar todos os inputs 
+
+dcument.querySelector("input#numero-conta") -- Pega elemento por ID
+
+
+
+DESABILITAR BOTÃO
+
+document.getElementById('button').disabled = True

@@ -1,0 +1,21 @@
+No CSS iremos criar:
+
+input.error{
+	cor: x
+}
+
+
+No JS:
+
+	item.classList.add('error')
+
+
+No caso, quando o input apresentar erro, será configurado conforme settado no CSS. 
+
+OBS: Não é necessariamente um erro configurado ao input, mas pode estar dentro do IF. EX:
+
+SE x:
+	item.classList.add('error')
+
+
+Nesse caso, se a condição X for atendida, independente de ser erro ou não, iríamos configurar o item de acordo com o css
