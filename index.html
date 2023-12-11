@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Tarefas</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+
+    <header>
+        <h1>Lista de Tarefas</h1>
+    </header>
+
+    <div class="container">
+
+        <div class="div_form">
+            <form>
+                <input id="input_nome_atividade" type="text" placeholder="Insira o título da sua atividade"></input>
+                <input id="input_url_atividade" type="link" placeholder="Insira a URL do print da sua atividade"></input>
+                <div>
+                    <button id="botao_enviar" type="submit">ENVIAR</button>
+                </div>  
+                <textarea id="textarea_retorno"></textarea>
+            </form>
+        </div>
+
+        <button id="botao_slide" type="button">></button>
+
+        <div class="div_lista">
+            <form>
+                <ul id="lista_valores">
+                </ul>
+            </form>
+        </div>
+
+
+    </div>
+
+    
+</body>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./main.js"></script>
+
+</html>
