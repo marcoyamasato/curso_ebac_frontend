@@ -1,7 +1,7 @@
 @import 'maps.less';
 
 
-@breakPointTablet: ~"(max-width: 1023px)";
+@breakPointTablet: ~"(max-width: 1024px)";
 @breakPointMobile: ~"(max-width: 767px)"; //Isso é um escape
 
 
@@ -98,13 +98,15 @@ section {
         max-width: 80%;
     }
 
-    .products {
-        grid-template-columns: repeat(2, 48.5%);
-        column-gap: 3%;
+    section{    
+        .products {
+            grid-template-columns: repeat(2, 48.5%);
+            column-gap: 3%;
+        }
     }
 }
 
-@media @breakPointTablet{
+@media @breakPointMobile{
     .products {
         display: block;
     }

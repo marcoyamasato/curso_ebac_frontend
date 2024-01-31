@@ -66,16 +66,16 @@ section .products .product-item .product-button {
 section .products .product-item .product-button:hover {
   background-color: #4cd137;
 }
-@media (max-width: 1023px) {
+@media (max-width: 1024px) {
   .container {
     max-width: 80%;
   }
-  .products {
+  section .products {
     grid-template-columns: repeat(2, 48.5%);
     column-gap: 3%;
   }
 }
-@media (max-width: 1023px) {
+@media (max-width: 767px) {
   .products {
     display: block;
   }
